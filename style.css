@@ -29,31 +29,59 @@ i {
   color: red;
 }
 
+#box {
+  color: blue;
+}
+
 .first-box-container {
   width: 200px;
-  height: 100px;
+  height: 115px;
   background-color: red;
   position: absolute;
   left: 20px;
   top: 20px;
+  border-width: 10px;
+  border-color: green;
+  border-style: solid;
+  text-align: center;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding-top: 35px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .second-box-container {
   width: 200px;
-  height: 100px;
+  height: 150px;
   background-color: yellow;
   position: absolute;
   left: 280px;
   top: 20px;
+  border-width: 10px;
+  border-color: red;
+  border-style: solid;
+  text-align: center;
+  line-height: 90px;
+  text-transform: uppercase;
 }
 
 .third-box-container {
   width: 200px;
-  height: 100px;
+  height: 150px;
   background-color: green;
   position: absolute;
   left: 550px;
   top: 20px;
+  border-width: 10px;
+  border-color: yellow;
+  border-style: solid;
+  text-align: center;
+  margin: auto;
+  line-height: 90px;
+  text-transform: uppercase;
+  text-vertical-align:middle;
 }
 
 
