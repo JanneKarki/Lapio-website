@@ -1,24 +1,31 @@
-* {
-  color: pink;
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  margin: 0 auto;
+  max-width: 40em;
+  color: #555;
 }
+
+h2 {
+
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
 p { 
-  color: darkred; 
+  color: rgb(84, 84, 84); 
 }
 strong {
-  color: darkred;
+  color: rgb(84, 84, 84); 
 }
 i {
-  color: darkred;
+  color: rgb(84, 84, 84); 
 }
 
 .otsikko {
-  color: blue;
+  color: rgb(64,64,64);
 }
 .otsikko2 {
-  color: darkred;
-}
-.teksti {
-  color: yellow;
+  color: rgb(64,64,64);
 }
 
 #punainen-kohta {
@@ -27,6 +34,11 @@ i {
 
 #kirkas-punainen {
   color: red;
+}
+
+.lista {
+
+  color: rgb(84,84,84)
 }
 
 #box {
